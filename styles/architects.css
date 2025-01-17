@@ -8,3 +8,84 @@
   font-weight: 400;
   font-style: normal;
 }
+  /* shaerd style */
+  .disply-flex{
+    display: flex;
+  }
+  /* durk-2 */
+  .text-gray{
+    color: #424242;
+  }
+
+  /* durk-3 */
+  .text-light-gray{
+    color: #727272;
+  }
+
+  .bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+  }
+
+
+
+  /* header style */
+
+
+  /* navbar relted */
+  .navbar{
+    justify-content: space-between;
+    align-items: center;
+  }
+    .barnd{
+      font-size: 3rem;
+      font-weight:700 ;
+
+    }
+
+  .nav-item{
+    list-style: none;
+    margin-right:30px ;
+   
+
+  }
+  .nav-link{
+    text-decoration: none;
+  }
+  .navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  /* bannaer related style */
+  .banner-contant{
+      max-width: 850px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 50px;
+  }
+  .banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+  }
+
+  .btn-primary{
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    font-size:1.25rem;
+    font-weight: 600px;
+    border-radius: 8px;
+    /* margin-bottom: 10px; */
+  }
+
+  .banner-img{
+    width: 100%;
+  }
+
+  /* responce  */
+  @media screen and (max-width: 576px){
+              .navbar, .nav-link{
+                flex-direction: column;
+              }
+    
+  }
