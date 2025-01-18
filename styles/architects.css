@@ -200,6 +200,20 @@
   .sponsors-compais img{
     filter: grayscale(100%);
   }
+  .footer-description{
+    padding: 39px 410px 38px 410px;
+    background-color:#FFF4E7;
+    margin: 0 auto;
+    /* margin-left:240px;
+    margin-right: 240px; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+   
+  }
+  .footer-title{
+    width: 100%;
+  }
 
 
 
