@@ -147,6 +147,20 @@
     margin-bottom: 100px;
   }
 
+  /* sponsors related  style  */
+  .sponsor-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  .sponsors-compais{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+  }
+  .sponsors-compais img{
+    filter: grayscale(100%);
+  }
+
 
 
   /* responce  */
@@ -156,12 +170,19 @@
                .teams{
                 flex-direction: column;
               }
-  .team-img-containar{
+  .team-img-containar,
+   .fact-container,
+   .sponsors-compais{
     grid-template-columns: repeat(1,1fr);
+  }
+  .fact-container,.sponsors-compais{
+    justify-items: center;
+    gap: 24px;
   }
   .our-features{
     margin-left: 20px;
   }
+
   
   }
 
@@ -172,4 +193,10 @@
     .our-features{
       margin-left: 50px auto;
     }
+    .sponsors-compais, .fact-container{
+      grid-template-columns: repeat(2,1fr);
+      gap: 50px;
+      justify-items: center;
+    }
+
   }
